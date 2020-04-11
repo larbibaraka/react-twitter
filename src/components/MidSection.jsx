@@ -2,8 +2,8 @@ import React from "react";
 
 export default function MidSection() {
   return (
-    <div className="w-1/3 border border-grey-300">
-      <div className="user_lit_info flex">
+    <div className="w-1/2 border border-grey-300">
+      <div className="flex bg-gray-200 ">
         <span className="border-white h-10 w-10 flex items-center justify-center rounded-full hover:bg-blue-200 cursor-pointer text-blue-300 text-2xl hover:text-blue-400 ml-2 mr-2 mt-2">
         &#8592;
         </span>
