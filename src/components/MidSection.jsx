@@ -59,6 +59,12 @@ export default function MidSection() {
             <a className="font-sans text-gray-600  hover:underline " href="/"><span className="font-bold mr-1 text-black">25</span>Followers</a>
         </div>
       </div>
+      <ul className="navigation flex ">
+        <li className="cursor-pointer w-full hover:bg-blue-200 border-b-2 border-blue-500 p-4 text-center text-blue-500"><a href="/">Tweets</a></li>
+        <li className="cursor-pointer w-full hover:bg-blue-200  p-4 text-center text-blue-500"><a href="/">Tweets & replies</a></li>
+        <li className="cursor-pointer w-full hover:bg-blue-200  p-4 text-center text-blue-500"><a href="/">Media</a></li>
+        <li className="cursor-pointer w-full hover:bg-blue-200  p-4 text-center text-blue-500"><a href="/">Likes</a></li>
+      </ul>  
     </div>
   );
 }
