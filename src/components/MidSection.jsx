@@ -32,18 +32,29 @@ export default function MidSection() {
         </button>
       </div>
       <div className="userinfo container m-2 p-2">
-      <div class="mt-2">
-        <p class="text-gray-900 leading-none text-xl font-bold">Baraka Larbi</p>
-        <p class="text-gray-600">@laridev2016</p>
-      </div>  
-      <div class=" mt-2 w-8/12">
-        <p className="font-sans font-normal">
-        <a className="text-blue-700 font-medium" href="/">#BarakaLarbi</a> A coffe Lover , React js Developer ,😋😋😋😋😋 
-        i love Panda, green color, Martial arts (Aikido)
-        </p>
+        <div class="mt-2">
+          <p class="text-gray-900 leading-none text-xl font-bold">
+            Baraka Larbi
+          </p>
+          <p class="text-gray-600">@laridev2016</p>
+        </div>
+        <div class=" mt-2 w-8/12">
+          <p className="font-sans font-normal">
+            <a className="text-blue-700 font-medium" href="/">
+              #BarakaLarbi
+            </a>{" "}
+            A coffe Lover , React js Developer ,😋😋😋😋😋 i love Panda, green
+            color, Martial arts (Aikido)
+          </p>
+        </div>
+        <div className="mt-3 w-8/12">
+          <p className="font-sans text-gray-600 flex justify-around font-medium">
+            <span>Bougara</span>
+            <span>Born October 7, 1992</span>
+            <span>Joined April 2017</span>
+          </p>
+        </div>
       </div>
-
-      </div>  
     </div>
   );
 }
