@@ -77,38 +77,100 @@ export default function MidSection() {
           <a href="/">Likes</a>
         </li>
       </ul>
-      <div className="flex p-2">
-        <img
-          className="w-10 h-10 rounded-full mr-4"
-          src={userprofile}
-          alt="Baraka Larbi"
-        />
-        <div className="text-sm">
-          <a className="text-black font-bold hover:underline" href="/">
-            Baraka Larbi{" "}
-          </a>
-          <span className="text-gray-600">
-            @laridev2016 .{" "}
-            <span className="hover:underline cursor-pointer ">Feb 15</span>
-          </span>
+
+      <div className="cardfull border border-gray-200">
+        <div className="flex p-2">
+          <img
+            className="w-10 h-10 rounded-full mr-4"
+            src={userprofile}
+            alt="Baraka Larbi"
+          />
+          <div className="text-sm">
+            <a className="text-black font-bold hover:underline" href="/">
+              Baraka Larbi{" "}
+            </a>
+            <span className="text-gray-600">
+              @laridev2016 .{" "}
+              <span className="hover:underline cursor-pointer ">Feb 15</span>
+            </span>
+          </div>
+        </div>
+        <div className="cardbody flex mx-auto w-full p-6 pt-2 mb-4">
+          <div className=" rounded overflow-hidden shadow-lg ">
+            <img
+              className="w-full"
+              src={baseimage}
+              alt="Sunset in the mountains"
+            />
+            <div className="px-6 py-4">
+              <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
+              <p className="text-gray-700 text-base">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Voluptatibus quia, nulla! Maiores et perferendis eaque,
+                exercitationem praesentium nihil.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-      <div className="card flex mx-auto w-full p-6 pt-2 mb-4">
-        <div className=" rounded overflow-hidden shadow-lg ">
+
+      <div className="cardfull border border-gray-200">
+        <div className="flex p-2">
           <img
-            className="w-full"
-            src={baseimage}
-            alt="Sunset in the mountains"
+            className="w-10 h-10 rounded-full mr-4"
+            src={userprofile}
+            alt="Baraka Larbi"
           />
-          <div className="px-6 py-4">
-            <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
-            <p className="text-gray-700 text-base">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Voluptatibus quia, nulla! Maiores et perferendis eaque,
-              exercitationem praesentium nihil.
-            </p>
+          <div className="text-sm">
+            <a className="text-black font-bold hover:underline" href="/">
+              Baraka Larbi{" "}
+            </a>
+            <span className="text-gray-600">
+              @laridev2016 .{" "}
+              <span className="hover:underline cursor-pointer ">Feb 15</span>
+            </span>
           </div>
-   
+        </div>
+        <div className="cardbody flex mx-auto w-full p-6 pt-2 mb-4">
+          <div className=" rounded overflow-hidden shadow-lg ">
+            <img
+              className="w-full"
+              src={baseimage}
+              alt="Sunset in the mountains"
+            />
+            <div className="px-6 py-4">
+              <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
+              <p className="text-gray-700 text-base">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Voluptatibus quia, nulla! Maiores et perferendis eaque,
+                exercitationem praesentium nihil.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="cardfull border border-gray-200">
+        <div className="flex p-2">
+          <img
+            className="w-10 h-10 rounded-full mr-4"
+            src={userprofile}
+            alt="Baraka Larbi"
+          />
+          <div className="text-sm">
+            <a className="text-black font-bold hover:underline" href="/">
+              Baraka Larbi{" "}
+            </a>
+            <span className="text-gray-600">
+              @laridev2016 .{" "}
+              <span className="hover:underline cursor-pointer ">Feb 15</span>
+            </span>
+          </div>
+        </div>
+        <div className="cardbody flex mx-auto w-full p-6 pt-2 mb-4">
+          <p className="text-gray-700 text-base">
+            this a tweet for test .......
+          </p>
         </div>
       </div>
     </div>
