@@ -10913,8 +10913,13 @@ video {
 }
 
 .userpic{
-  top: 130px;
-  left: 11px;
+  display: inline-block;
+  margin-top: -48px;
+  margin-left: 10px;
+}
+
+.background-pic{
+  height: 278px;
 }
 
 @media (min-width: 640px) {
