@@ -5,10 +5,13 @@ import RightSideBar from "../components/RightSideBar";
  
 function App() {
   return (
-    <div className="container mx-auto">
+    <div className="container">
+      <div className="">
         <LeftSideBar/>
         <MidSection/>
         <RightSideBar/>
+      </div>
+    
     </div>
   );
 }
