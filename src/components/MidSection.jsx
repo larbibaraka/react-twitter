@@ -48,11 +48,15 @@ export default function MidSection() {
           </p>
         </div>
         <div className="mt-3 w-8/12">
-          <p className="font-sans text-gray-600 flex justify-around font-medium">
+          <p className="font-sans text-gray-600 mr-2 font-medium">
             <span>Bougara</span>
             <span>Born October 7, 1992</span>
             <span>Joined April 2017</span>
           </p>
+        </div>
+        <div className="mt-3 w-8/12 ">
+            <a className="font-sans text-gray-600 mr-2 hover:underline " href="/"><span className="font-bold mr-1 text-black">68</span>Following</a>
+            <a className="font-sans text-gray-600  hover:underline " href="/"><span className="font-bold mr-1 text-black">25</span>Followers</a>
         </div>
       </div>
     </div>
