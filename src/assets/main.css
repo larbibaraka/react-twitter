@@ -52143,3 +52143,9 @@ video {
     transition-duration: 1000ms;
   }
 }
+
+
+.userpic{
+  top: 130px;
+  left: 11px;
+}
