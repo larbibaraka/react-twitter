@@ -3,3 +3,9 @@
 @import "tailwindcss/components";
 
 @import "tailwindcss/utilities";
+
+
+.userpic{
+    top: 130px;
+    left: 11px;
+  }
