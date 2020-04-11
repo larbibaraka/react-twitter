@@ -32,13 +32,13 @@ export default function MidSection() {
         </button>
       </div>
       <div className="userinfo container m-2 p-2">
-        <div class="mt-2">
-          <p class="text-gray-900 leading-none text-xl font-bold">
+        <div className="mt-2">
+          <p className="text-gray-900 leading-none text-xl font-bold">
             Baraka Larbi
           </p>
-          <p class="text-gray-600">@laridev2016</p>
+          <p className="text-gray-600">@laridev2016</p>
         </div>
-        <div class=" mt-2 w-8/12">
+        <div className=" mt-2 w-8/12">
           <p className="font-sans font-normal">
             <a className="text-blue-700 font-medium" href="/">
               #BarakaLarbi
@@ -49,9 +49,9 @@ export default function MidSection() {
         </div>
         <div className="mt-3 w-8/12">
           <p className="font-sans text-gray-600 mr-2 font-medium">
-            <span>Bougara</span>
-            <span>Born October 7, 1992</span>
-            <span>Joined April 2017</span>
+            <span className="mr-4">Bougara</span>
+            <span className="mr-4">Born October 7, 1992</span>
+            <span className="mr-4">Joined April 2017</span>
           </p>
         </div>
         <div className="mt-3 w-8/12 ">
