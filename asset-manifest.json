@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/larbibaraka/react-twitter/static/css/main.ba77856f.chunk.css",
-    "main.js": "/larbibaraka/react-twitter/static/js/main.a27465d9.chunk.js",
-    "main.js.map": "/larbibaraka/react-twitter/static/js/main.a27465d9.chunk.js.map",
-    "runtime-main.js": "/larbibaraka/react-twitter/static/js/runtime-main.522a079f.js",
-    "runtime-main.js.map": "/larbibaraka/react-twitter/static/js/runtime-main.522a079f.js.map",
-    "static/js/2.90cf08cb.chunk.js": "/larbibaraka/react-twitter/static/js/2.90cf08cb.chunk.js",
-    "static/js/2.90cf08cb.chunk.js.map": "/larbibaraka/react-twitter/static/js/2.90cf08cb.chunk.js.map",
-    "index.html": "/larbibaraka/react-twitter/index.html",
-    "precache-manifest.cb4d1a8df00916d397a319037689ae67.js": "/larbibaraka/react-twitter/precache-manifest.cb4d1a8df00916d397a319037689ae67.js",
-    "service-worker.js": "/larbibaraka/react-twitter/service-worker.js",
-    "static/css/main.ba77856f.chunk.css.map": "/larbibaraka/react-twitter/static/css/main.ba77856f.chunk.css.map",
-    "static/js/2.90cf08cb.chunk.js.LICENSE.txt": "/larbibaraka/react-twitter/static/js/2.90cf08cb.chunk.js.LICENSE.txt",
-    "static/media/baseimage.jfif": "/larbibaraka/react-twitter/static/media/baseimage.c0caaefc.jfif",
-    "static/media/userprofile.jpg": "/larbibaraka/react-twitter/static/media/userprofile.4842ee71.jpg"
+    "main.css": "/react-twitter/static/css/main.ba77856f.chunk.css",
+    "main.js": "/react-twitter/static/js/main.a27465d9.chunk.js",
+    "main.js.map": "/react-twitter/static/js/main.a27465d9.chunk.js.map",
+    "runtime-main.js": "/react-twitter/static/js/runtime-main.6859131c.js",
+    "runtime-main.js.map": "/react-twitter/static/js/runtime-main.6859131c.js.map",
+    "static/js/2.90cf08cb.chunk.js": "/react-twitter/static/js/2.90cf08cb.chunk.js",
+    "static/js/2.90cf08cb.chunk.js.map": "/react-twitter/static/js/2.90cf08cb.chunk.js.map",
+    "index.html": "/react-twitter/index.html",
+    "precache-manifest.2f812dbf8313e3c8c6bc631d5e4c8034.js": "/react-twitter/precache-manifest.2f812dbf8313e3c8c6bc631d5e4c8034.js",
+    "service-worker.js": "/react-twitter/service-worker.js",
+    "static/css/main.ba77856f.chunk.css.map": "/react-twitter/static/css/main.ba77856f.chunk.css.map",
+    "static/js/2.90cf08cb.chunk.js.LICENSE.txt": "/react-twitter/static/js/2.90cf08cb.chunk.js.LICENSE.txt",
+    "static/media/baseimage.jfif": "/react-twitter/static/media/baseimage.c0caaefc.jfif",
+    "static/media/userprofile.jpg": "/react-twitter/static/media/userprofile.4842ee71.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.522a079f.js",
+    "static/js/runtime-main.6859131c.js",
     "static/js/2.90cf08cb.chunk.js",
     "static/css/main.ba77856f.chunk.css",
     "static/js/main.a27465d9.chunk.js"
