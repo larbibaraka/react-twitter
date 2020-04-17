@@ -121,7 +121,6 @@ export default function RightSideBar() {
         </div>
       </div>
       {/* trends for you */}
-
       <div className="rounded-lg overflow-hidden  bg-gray-100 border border-gray-300 m-4">
         <h1 className="font-sans font-bold text-xl p-4">Trends for you</h1>
         <hr />
@@ -147,6 +146,44 @@ export default function RightSideBar() {
               <span className="text-gray-600">52.2K Tweets</span>
             </div>
           </div>
+        </div>
+      </div>
+      {/* footer links */}
+      <div className="flex flex-col p-4 ">
+        <div className="links">
+          <a
+            href="/"
+            className="ml-4 hover:underline text-gray-500 font-sans cursor-pointer"
+          >
+            Terms
+          </a>
+          <a
+            href="/"
+            className="ml-4 hover:underline text-gray-500 font-sans cursor-pointer"
+          >
+            privacy policy
+          </a>
+          <a
+            href="/"
+            className="ml-4 hover:underline text-gray-500 font-sans cursor-pointer"
+          >
+            cookies
+          </a>
+          <a
+            href="/"
+            className="ml-4 hover:underline text-gray-500 font-sans cursor-pointer"
+          >
+            ads info
+          </a>
+          <a
+            href="/"
+            className="ml-4 hover:underline text-gray-500 font-sans cursor-pointer"
+          >
+            More
+          </a>
+        </div>
+        <div className="copyright mt-2">
+          <span className=" ml-4  text-gray-500 font-sans">© {new Date().getFullYear()} ReactTwitter, Inc.</span>
         </div>
       </div>
     </div>
