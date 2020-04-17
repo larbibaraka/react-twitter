@@ -67,8 +67,11 @@ export default function RightSideBar() {
         </div>
        </div>
       </div>
-
-
+      {/* you might like */}
+      <div className="rounded-lg overflow-hidden  bg-gray-200  p-4 m-4">
+        <h1 className="font-sans font-bold text-xl">you might like</h1>
+        <hr/>
+      </div>
     </div>
   );
 }
