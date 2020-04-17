@@ -1,5 +1,8 @@
 import React from "react";
+
 import baseimage from "../assets/images/baseimage.jfif";
+
+
 export default function RightSideBar() {
   return (
     <div className="w-1/3 border border-gray-200 flex flex-col">
@@ -12,56 +15,59 @@ export default function RightSideBar() {
         />
       </div>
 
-      <div className="m-4">
-        <div className="row flex flex-row">
-          <div className="element h-10 w-1/3 m-1">
-            <img
-              className="h-12"
-              src={baseimage}
-              alt="Baraka Larbi user background"
-            />
-          </div>
-
-          <div className="element h-10 w-1/3 m-1">
-            <img
-              className=""
-              src={baseimage}
-              alt="Baraka Larbi user background"
-            />
-          </div>
-         
-          <div className="element h-10 w-1/3 m-1">
-            <img
-              className=""
-              src={baseimage}
-              alt="Baraka Larbi user background"
-            />
-          </div>
+      <div className="h-48 w-full flex flex-col p-4">
+       <div className="flex mt-1">
+       <div className="mr-1">
+          <img
+            className="h-24 rounded-l border-l-1 border-t-1 border-b-1  border-gray-500"
+            src={baseimage}
+            alt="Baraka Larbi user background"
+          />
         </div>
-        <div className="row flex flex-row">
-          <div className="element w-1/3 m-1">
-            <img
-              className=""
-              src={baseimage}
-              alt="Baraka Larbi user background"
-            />
-          </div>
-          <div className="element w-1/3 m-1">
-            <img
-              className=""
-              src={baseimage}
-              alt="Baraka Larbi user background"
-            />
-          </div>
-          <div className="element w-1/3 m-1">
-            <img
-              className=""
-              src={baseimage}
-              alt="Baraka Larbi user background"
-            />
-          </div>
+      
+        <div className="mr-1">
+          <img
+            className="h-24"
+            src={baseimage}
+            alt="Baraka Larbi user background"
+          />
         </div>
+      
+        <div className="">
+          <img
+            className="h-24 rounded-r  border-l-1 border-t-1 border-b-1 border-gray-500"
+            src={baseimage}
+            alt="Baraka Larbi user background"
+          />
+        </div>
+       </div>
+       <div className="flex mt-1">
+       <div className="mr-1">
+          <img
+            className="h-24 rounded-l border-l-1 border-t-1 border-b-1  border-gray-500"
+            src={baseimage}
+            alt="Baraka Larbi user background"
+          />
+        </div>
+      
+        <div className="mr-1">
+          <img
+            className="h-24"
+            src={baseimage}
+            alt="Baraka Larbi user background"
+          />
+        </div>
+      
+        <div className="">
+          <img
+            className="h-24 rounded-r  border-l-1 border-t-1 border-b-1 border-gray-500"
+            src={baseimage}
+            alt="Baraka Larbi user background"
+          />
+        </div>
+       </div>
       </div>
+   
     </div>
   );
 }
