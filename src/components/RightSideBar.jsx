@@ -68,7 +68,7 @@ export default function RightSideBar() {
         </div>
       </div>
       {/* you might like */}
-      <div className="rounded-lg overflow-hidden  bg-gray-200  m-4">
+      <div className="rounded-lg overflow-hidden  bg-gray-100 border border-gray-300 m-4">
         <h1 className="font-sans font-bold text-xl p-4">you might like</h1>
         <hr />
        
@@ -116,10 +116,42 @@ export default function RightSideBar() {
      
         <div className="flex justify-between hover:bg-gray-300 p-4 cursor-pointer">
           <a href="/" className="font-bold text-blue-500 cursor-pointer ">show more</a>
-          
         </div>
      
       </div>
+      {/* trends for you */}
+      
+      <div className="rounded-lg overflow-hidden  bg-gray-100 border border-gray-300 m-4">
+        <h1 className="font-sans font-bold text-xl p-4">Trends for you</h1>
+        <hr />
+       
+        <div className="flex justify-between hover:bg-gray-200 p-4 cursor-pointer border-b-2">
+          <div className="flex flex-row">
+              <div className="text-sm flex flex-col">
+              <span className="text-gray-600">trending in Algeria</span>
+              <a className="text-black font-bold hover:underline" href="/">
+                #coronavirusalgeria
+              </a>
+            </div>
+          </div>
+        </div>
+   
+        <div className="flex justify-between hover:bg-gray-200 p-4 cursor-pointer border-b-2">
+          <div className="flex flex-row">
+              <div className="text-sm flex flex-col">
+              <span className="text-gray-600">Politics . Trending</span>
+              <a className="text-black font-bold hover:underline" href="/">
+                Chine
+              </a>
+              <span className="text-gray-600">52.2K Tweets</span>
+
+            </div>
+          </div>
+        </div>
+   
+      </div>
+    
+
     </div>
   );
 }
