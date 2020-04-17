@@ -1,12 +1,15 @@
 import React from "react";
 import baseimage from "../assets/images/baseimage.jfif";
 import userprofile from "../assets/images/userprofile.jpg";
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowLeft} from '@fortawesome/free-solid-svg-icons'
 export default function MidSection() {
   return (
     <div className="w-1/2 border border-gray-300 flex flex-col">
       <div className="flex p-1 ">
         <span className="border-white h-10 w-10 flex items-center justify-center rounded-full hover:bg-blue-200 cursor-pointer text-blue-300 text-2xl hover:text-blue-400 ml-2 mr-2 mt-2">
-          &#8592;
+        <FontAwesomeIcon icon={faArrowLeft} />
         </span>
         <div className="flex flex-col">
           <h1 className="text-1xl font-bold mt-2">Baraka Larbi</h1>
