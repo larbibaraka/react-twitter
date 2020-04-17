@@ -27,7 +27,7 @@ export default function MidSection() {
         />
       </div>
       <div className="flex justify-end -mt-10 mr-2">
-        <button className="bg-transparent hover:bg-blue-300 text-blue-500 font-semibold hover:text-white rounded-full py-2 px-4 border border-blue-500 hover:border-transparent ">
+        <button className="transition duration-300 ease-in  bg-transparent hover:bg-blue-300 text-blue-500 font-semibold hover:text-white rounded-full py-2 px-4 border border-blue-500 hover:border-transparent ">
           Editer le profile
         </button>
       </div>
@@ -64,16 +64,16 @@ export default function MidSection() {
         </div>
       </div>
       <ul className="navigation flex ">
-        <li className="cursor-pointer w-full hover:bg-blue-200 border-b-2 border-blue-500 p-4 text-center text-blue-500">
+        <li className="transition duration-300 ease-in  cursor-pointer w-full hover:bg-blue-200 border-b-2 border-blue-500 p-4 text-center text-blue-500">
           <a href="/">Tweets</a>
         </li>
-        <li className="cursor-pointer w-full hover:bg-blue-200  p-4 text-center text-blue-500">
+        <li className="transition duration-300 ease-in  cursor-pointer w-full hover:bg-blue-200  p-4 text-center text-blue-500">
           <a href="/">Tweets & replies</a>
         </li>
-        <li className="cursor-pointer w-full hover:bg-blue-200  p-4 text-center text-blue-500">
+        <li className="transition duration-300 ease-in  cursor-pointer w-full hover:bg-blue-200  p-4 text-center text-blue-500">
           <a href="/">Media</a>
         </li>
-        <li className="cursor-pointer w-full hover:bg-blue-200  p-4 text-center text-blue-500">
+        <li className="transition duration-300 ease-in  cursor-pointer w-full hover:bg-blue-200  p-4 text-center text-blue-500">
           <a href="/">Likes</a>
         </li>
       </ul>
