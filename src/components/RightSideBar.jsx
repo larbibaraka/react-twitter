@@ -93,7 +93,7 @@ export default function RightSideBar() {
           </div>
         </div>
      
-        <div className="flex justify-between hover:bg-gray-300 p-4 cursor-pointer">
+        <div className="flex justify-between hover:bg-gray-300 p-4 cursor-pointer border-b-2">
           <div className="flex flex-row">
             <img
               className="w-10 h-10 rounded-full mr-4"
@@ -112,6 +112,11 @@ export default function RightSideBar() {
               Follow
             </button>
           </div>
+        </div>
+     
+        <div className="flex justify-between hover:bg-gray-300 p-4 cursor-pointer">
+          <a href="/" className="font-bold text-blue-500 cursor-pointer ">show more</a>
+          
         </div>
      
       </div>
