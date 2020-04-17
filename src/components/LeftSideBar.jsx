@@ -9,7 +9,7 @@ import { faEnvelope} from '@fortawesome/free-solid-svg-icons';
 import { faList} from '@fortawesome/free-solid-svg-icons';
 import { faBookmark} from '@fortawesome/free-solid-svg-icons';
 import { faEllipsisH} from '@fortawesome/free-solid-svg-icons';
-
+import userprofile from "../assets/images/userprofile.jpg";
 export default function LeftSideBar() {
     return (
         <div className="w-1/5 flex flex-col">  
@@ -25,7 +25,14 @@ export default function LeftSideBar() {
                 <li className="m-4"><a className="text-center font-bold transition duration-100 ease-in border-white rounded-full hover:bg-blue-100 hover:text-blue-500 pt-4 pb-4 pr-8 pl-8" href="/"><span className="text-black mr-4 text-xl"><FontAwesomeIcon icon={faEnvelope} /></span>Messages</a></li>
                 <li className="m-4"><a className="text-center font-bold transition duration-100 ease-in border-white rounded-full hover:bg-blue-100 hover:text-blue-500 pt-4 pb-4 pr-8 pl-8" href="/"><span className="text-black mr-4 text-xl"><FontAwesomeIcon icon={faBookmark} /></span>Signets</a></li>
                 <li className="m-4"><a className="text-center font-bold transition duration-100 ease-in border-white rounded-full hover:bg-blue-100 hover:text-blue-500 pt-4 pb-4 pr-8 pl-8" href="/"><span className="text-black mr-4 text-xl"><FontAwesomeIcon icon={faList} /></span>Listes</a></li>
-                <li className="m-4"><a className="text-center font-bold transition duration-100 ease-in border-white rounded-full hover:bg-blue-100 hover:text-blue-500 pt-4 pb-4 pr-8 pl-8" href="/"><span></span>Profile</a></li>
+                <li className="m-4"><a className="text-center font-bold transition duration-100 ease-in border-white rounded-full hover:bg-blue-100 hover:text-blue-500 pt-4 pb-4 pr-8 pl-8 flex" href="/"><span className="text-black mr-2 ">
+                <img
+            className="w-8 h-8 rounded-full "
+            src={userprofile}
+            alt="Baraka Larbi"
+          />
+                    </span>
+                    Profile</a></li>
                 <li className="m-4"><a className="text-center font-bold transition duration-100 ease-in border-white rounded-full hover:bg-blue-100 hover:text-blue-500 pt-4 pb-4 pr-8 pl-8" href="/"><span className="text-black mr-4 text-xl"><FontAwesomeIcon icon={faEllipsisH} /></span>Plus</a></li>
             </ul>    
         </div>
